@@ -27,4 +27,19 @@ h1,
     padding:8px;
     cursor: pointer;
     font-size: 16px;
+    text-transform: capitalize;
+    transition: 0.3s all linear;
+}
+
+.button-container .btn:hover{
+    background-color: #0000ffb0;
+    color: #FFFFFF;
+    border-color: transparent;
+    border-radius: 4px;
+}
+.button-container .increase:hover{
+    background-color: green;
+}
+.button-container .decrease:hover{
+    background-color: red;
 }

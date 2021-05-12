@@ -14,6 +14,7 @@ btns.forEach(function (btn){
         }else{
             count = 0;
         }
+       
         if(count > 0){
             value.style.color = "green";
         }
@@ -22,8 +23,17 @@ btns.forEach(function (btn){
         }
         if(count === 0){
             value.style.color = "#222";
-        }
+        }       
+
+        // let count = 0;
+        // count < 0
+        // ? value.style.color = "red"
+        // : count > 0
+        // ? value.style.color = "green"
+        // : value.style.color = 'black'
+
         value.textContent = count;
+      
     });
 });
 
